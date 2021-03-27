@@ -12,6 +12,7 @@ body {
 .width80 {
     width: 80%;
     margin: 0 auto;
+    padding: 2rem 0;
 }
 
 .float-left {
@@ -136,6 +137,7 @@ header {
     width: 100%;
     height: 10%;
     margin: 2rem auto;
+    border-radius: 5px;
     background-color: white;
 }
 .card-horiz .learn-more{
@@ -173,9 +175,176 @@ header {
     display: inline-block;
     padding: 1rem;
 }
-.info i{
+.categories ul i{
     color: orange;
     padding-right: 1rem;
 }
 
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.card {
+    width: 30%;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: white;
+}
+.card p {
+    padding: 1rem;
+}
+.card hr {
+    width: 90%;
+    margin: 2rem auto;
+    color: grey;
+}
+.card ul {
+    list-style: none;
+    text-align: start;
+    padding: 1rem 0;
+}
+.card .btn {
+    margin: 2rem;
+}
+
+.svg {
+    width: 30%;
+    height: 110px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.bubble {
+    background-image: url(img/buble.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.office {
+    background-image: url(img/office.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.table {
+    background-image: url(img/table.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.data {
+    text-align: center;
+    background-color: turquoise;
+    color: white;
+    padding-bottom: 2rem;
+}
+.data h2 {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.numbers .award {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: baseline;
+    width: 25%;
+    height: 200px;
+}
+
+.award .icon {
+    width: 100%;
+    height: 50px;
+    padding-top: 1rem;
+}
+
+.award h3 {
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.award p{
+    margin: 0 auto;
+}
+
+.row1 {
+    border: 1px solid white;
+    border-top: none;
+}
+.row2 {
+    border-right: 1px solid white;
+}
+.first {
+    border-left: none;
+}
+.last {
+    border-right: none;
+}
+
+.partners {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.cust-number {
+    width: 20%; 
+    text-align: center; 
+}
+.cust-number h2 {
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+.cust-logos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.cust-logos .logo {
+    width: 25%;
+    padding: 0 1rem;
+}
+.logo img {
+    width: 100%;
+}
+
+.growing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start {
+    display: inline-block;
+    width: 40%;
+}
+.start h2 {
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+.start h4, .start p {
+    font-weight: lighter;
+}
+.start .btn{
+    margin: 2rem 0;
+}
+
+.growing img {
+    width: 30%;
+}
+
+footer {
+    background-color: rgb(54, 73, 85);
+    color: white;
+}
 
