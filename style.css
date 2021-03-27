@@ -348,3 +348,52 @@ footer {
     color: white;
 }
 
+.columns-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+}
+
+.col {
+    padding: 2rem;
+    line-height: 3;
+}
+
+.white {
+    background-color: white;
+    color:rgb(54, 73, 85);
+    border: none;
+    padding: 1rem;
+}
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+}
+.socials a {
+    padding-right: 1rem;
+}
+.socials i {
+    color: white;
+}
+
+.languages {
+    padding: 3rem 0 2rem 0;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.languages a{
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+}
+
+.logo-foot {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-between;
+}
+.logo-foot .legal-stuff p {
+    display: inline-block;
+}
+
