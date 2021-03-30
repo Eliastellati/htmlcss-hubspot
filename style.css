@@ -154,6 +154,7 @@ header {
     transition: 0.5s ease-out;
 }
 .card-horiz:hover {
+    transform: scale3d(1.05, 1.05, 1);
     box-shadow: 1px 4px 7px 1px grey;
 }
 .card-horiz .learn-more{
@@ -211,7 +212,8 @@ header {
     transition: 0.5s ease-out;
 }
 .card:hover {
-    box-shadow: 1px 4px 7px 1px grey;
+    transform: scale3d(1.05, 1.05, 1);
+    box-shadow:2px 2px 5px grey;
 }
 .card p {
     padding: 1rem;
