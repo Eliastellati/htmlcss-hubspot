@@ -237,7 +237,7 @@ header {
 
 .data {
     text-align: center;
-    background-color: turquoise;
+    background: linear-gradient(-45deg, turquoise, rgb(0, 128, 111));
     color: white;
     padding-bottom: 2rem;
 }
